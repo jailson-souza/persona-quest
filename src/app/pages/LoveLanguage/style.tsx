@@ -234,7 +234,7 @@ export const Modal = styled.div`
 export const ModalContent = styled.div`
    position: fixed;
    z-index: 2;
-   max-width: 400px;
+   min-width: 400px;
    min-height: 400px;
    background-color: #fff;
    opacity: 1;
