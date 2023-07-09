@@ -49,18 +49,14 @@ export const ButtonPreview = styled.button`
    border-radius: 3px;
    line-height: 1;
    padding: 12px 30px;
-   &:hover {
-      background: #d80075;
-      color: #fff;
-   }
 `
 
 export const ButtonNext = styled.button`
    width: 50%;
    height: 50px;
    cursor: pointer;
+   background: #d80075;
    color: #fff;
-   background: #434bdf;
    border: none;
    text-decoration: none;
    transition: background 0.5s ease;
@@ -75,10 +71,6 @@ export const ButtonNext = styled.button`
    border-radius: 3px;
    line-height: 1;
    padding: 12px 30px;
-   &:hover {
-      background: #d80075;
-      color: #fff;
-   }
 `
 
 export const ButtonFinish = styled.button`
