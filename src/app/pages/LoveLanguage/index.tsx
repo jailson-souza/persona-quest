@@ -1,6 +1,5 @@
-import Counter from '@quest/app/components/Counter'
 import * as Style from './style'
-
+import Counter from '@quest/app/components/Counter'
 import RadioOptions, { Option } from '@quest/app/components/RadioOptions'
 import Progress from '@quest/app/components/Progress'
 import useLoveLanguage from './hooks/useLoveLanguage'
@@ -105,9 +104,7 @@ export default function LoveLanguage() {
                                  ?
                               </Style.Info>
                            </Style.Text>
-                           <Style.Legend>
-                              {language.count} {language.count < 2 ? 'resposta' : 'respostas'}
-                           </Style.Legend>
+                           <Style.Legend>{language.count} de respostas</Style.Legend>
                         </Style.Description>
                      </Style.ListItem>
                   ))}

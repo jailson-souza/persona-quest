@@ -77,7 +77,7 @@ export const CheckMark = styled.span`
       -ms-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       border-radius: 50%;
-      background: #434bdf;
+      background: #d80075;
       -moz-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
       -webkit-transition: all 0.3s ease-in-out;
