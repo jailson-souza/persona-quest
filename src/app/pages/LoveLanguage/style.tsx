@@ -149,7 +149,7 @@ export const ErroMessage = styled.span`
    z-index: 2;
    width: 100%;
    line-height: 1;
-   background-color: #e34f4f;
+   background-color: #d80075;
    color: #fff;
    font-weight: 400;
    display: inline-block;
