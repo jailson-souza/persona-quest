@@ -104,7 +104,7 @@ export default function LoveLanguage() {
                                  ?
                               </Style.Info>
                            </Style.Text>
-                           <Style.Legend>{language.count} de respostas</Style.Legend>
+                           <Style.Legend>{language.count} respostas</Style.Legend>
                         </Style.Description>
                      </Style.ListItem>
                   ))}
